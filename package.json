@@ -1,0 +1,29 @@
+{
+  "name": "idiomstory",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
+  "author": "rayjcr <rayj@qq.com>",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --progress --host 0.0.0.0", 
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {   
+    "crypto-js": "^3.1.9-1",
+    "jquery": "^3.1.1",
+    "lodash": "^4.17.4",
+    "vue": "^2.2.1",
+    "vue-resource": "^1.2.0",
+    "vue-router": "^2.2.1"
+  },
+  "devDependencies": {
+    "cross-env": "^3.0.0",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "vue-loader": "^11.1.4",
+    "vue-template-compiler": "^2.2.1",
+    "vuex": "^2.1.2",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.2.0"
+  }
+}
